@@ -11,4 +11,9 @@ export class HomePage {
 
   }
 
+    ionViewWillEnter() { // THERE IT IS!!!
+	console.log('ionViewWillEnter');
+	window.open('http://www.tupulperia.com', '_system');	
+    }
+
 }
